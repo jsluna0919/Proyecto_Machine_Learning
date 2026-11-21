@@ -1,0 +1,44 @@
+
+# ==========================================
+# ENTORNO VIRTUAL Y PYTHON
+# ==========================================
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ==========================================
+# JUPYTER Y VS CODE
+# ==========================================
+
+.ipynb_checkpoints/
+.vscode/
+
+# ==========================================
+# VARIABLES DE ENTORNO
+# ==========================================
+
+.env
+.env.*
+
+# ==========================================
+# BASES DE DATOS
+# ==========================================
+
+# Ignorar todos los archivos originales
+data/raw/*
+
+# Mantener la carpeta en GitHub
+!data/raw/.gitkeep
+
+# Datos procesados
+data/processed/*
+!data/processed/.gitkeep
+
+# ==========================================
+# MODELOS ENTRENADOS
+# ==========================================
+
+*.joblib
+*.pkl

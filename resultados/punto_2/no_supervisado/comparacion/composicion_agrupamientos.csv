@@ -1,0 +1,8 @@
+﻿Cluster,Gamma,Hadron,Total,Metodo
+0,756,456,1212,K-Means
+1,1171,617,1788,K-Means
+0,1513,709,2222,Jerarquico Ward
+1,414,364,778,Jerarquico Ward
+-1,5,90,95,DBSCAN
+0,1922,978,2900,DBSCAN
+1,0,5,5,DBSCAN
